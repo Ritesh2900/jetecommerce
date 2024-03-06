@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.mycart {
+
+
+    font-size: 16px;
+    font-family: Okra;
+
+    font-weight: 700;
+    width: 7%;
+    padding: 0.5%;
+    color: white;
+    border: 2px solid rgb(19, 18, 18);
+    margin-left: 31px;
+    border-radius: 22px;
+    margin-top: 31px;
+    height: 32px;
+    background-color: green;
+}
+
+.cartimg {
+
+    height: 325px;
+    margin-left: 35%;
+}
+
+.fonticon:hover {
+    color: red;
+}
+
+.msgnote {
+
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Okra-Bold;
+    line-height: 24px;
+    margin-left: 3%;
+}
+
+.divmsg {
+
+    font-size: 14px;
+    font-family: Okra-Regular;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 20px;
+    margin-left: 41%;
+}
+
+.lastcartbtn {
+
+    background-color: rgb(12, 131, 31);
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    width: min-content;
+    padding: 0px 25px;
+    font-family: Okra-Regular;
+    color: white;
+    border-radius: 8px;
+    min-height: 36px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    margin-left: 45%;
+
+}
+
+.fonticon {
+
+    width: fit-content;
+    float: right;
+    margin-top: -3%;
+    margin-right: 25px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .mycart {
+        font-size: 17px;
+        font-family: Okra;
+        font-weight: 600;
+        width: 19%;
+        padding: 0.5%;
+        color: white;
+        border: 2px solid rgb(19, 18, 18);
+        margin-left: 26px;
+        border-radius: 22px;
+        margin-top: 31px;
+        height: 33px;
+        background-color: green;
+    }
+
+    #crosscut {
+        margin-left: 500%;
+    }
+
+    .msgnote {
+
+        margin-left: 16%;
+    }
+
+}

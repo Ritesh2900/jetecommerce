@@ -1,0 +1,57 @@
+.congomsg {
+
+    margin: auto;
+    width: fit-content;
+    margin-top: 1%;
+    text-align: center;
+    font-size: xxx-large;
+    color: green;
+}
+
+
+
+.Congostart {
+
+    background-color: rgb(12, 131, 31);
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    width: min-content;
+    padding: 0px 25px;
+    font-family: Okra-Regular;
+    color: white;
+    border-radius: 8px;
+    min-height: 36px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    margin-left: 43%;
+    margin-top: 12px;
+}
+
+
+.Congostart {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .congomsg {
+        margin-left: 48%;
+        font-size: xx-large;
+    }
+
+
+    .gif {
+        margin-left: 0%;
+    }
+
+    .Congostart{
+        margin-left: 59%;
+    }
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+
+}
+
+.signin {
+    width: 70%;
+    height: 80vh;
+
+    border-radius: 23%;
+}
+
+.signinform {
+
+    width: 25%;
+    margin-left: 71%;
+    margin-top: -29%;
+    border: 2px solid green;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 2px;
+}
+
+.form-control {
+
+    background-color: #d8d857;
+}
+
+.btn-primary {
+    background-color: green;
+}
+
+.signemail {
+    border: 1px solid green;
+}
+
+.labelgrp {
+    color: green;
+}
+
+#exampleInputEmail1 {
+    color: green;
+
+}
+
+#emailHelp {
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .signinform{
+     margin-left: 16%; 
+    
+    margin-top: 12%;
+    width: fit-content;
+    background-color: rgb(248,203,70);
+  
+
+}
+    
+    .signin{
+        display: none;
+    }
+}
+
+
+
+
+
